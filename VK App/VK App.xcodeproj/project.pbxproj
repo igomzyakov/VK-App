@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0F223625B2201600133C9B /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F223525B2201500133C9B /* SwipeViewController.swift */; };
 		1D7B565E25AD00C00056D0E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B565D25AD00C00056D0E0 /* AppDelegate.swift */; };
 		1D7B566025AD00C00056D0E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B565F25AD00C00056D0E0 /* SceneDelegate.swift */; };
 		1D7B566525AD00C00056D0E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7B566325AD00C00056D0E0 /* Main.storyboard */; };
 		1D7B566725AD00C10056D0E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7B566625AD00C10056D0E0 /* Assets.xcassets */; };
 		1D7B566A25AD00C10056D0E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7B566825AD00C10056D0E0 /* LaunchScreen.storyboard */; };
 		1D90F88C25AFA37700C71570 /* LoginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D90F88B25AFA37700C71570 /* LoginFormController.swift */; };
+		1DDF4B3E25B34E20000AE033 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF4B3D25B34E20000AE033 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D0F223525B2201500133C9B /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
 		1D7B565A25AD00C00056D0E0 /* VK App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7B565D25AD00C00056D0E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D7B565F25AD00C00056D0E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		1D7B566925AD00C10056D0E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D7B566B25AD00C10056D0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D90F88B25AFA37700C71570 /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
+		1DDF4B3D25B34E20000AE033 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				1D7B565D25AD00C00056D0E0 /* AppDelegate.swift */,
+				1DDF4B3D25B34E20000AE033 /* TableViewController.swift */,
+				1D0F223525B2201500133C9B /* SwipeViewController.swift */,
 				1D7B565F25AD00C00056D0E0 /* SceneDelegate.swift */,
 				1D7B566325AD00C00056D0E0 /* Main.storyboard */,
 				1D90F88B25AFA37700C71570 /* LoginFormController.swift */,
@@ -140,6 +146,8 @@
 				1D90F88C25AFA37700C71570 /* LoginFormController.swift in Sources */,
 				1D7B565E25AD00C00056D0E0 /* AppDelegate.swift in Sources */,
 				1D7B566025AD00C00056D0E0 /* SceneDelegate.swift in Sources */,
+				1DDF4B3E25B34E20000AE033 /* TableViewController.swift in Sources */,
+				1D0F223625B2201600133C9B /* SwipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
