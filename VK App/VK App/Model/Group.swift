@@ -8,7 +8,7 @@
 import UIKit
 
 struct Group {
-    var name: String
+    var name: String?
     var photo: UIImage?
     
     init(name: String, photo: String) {
@@ -21,4 +21,6 @@ struct Group {
             lhs.name == rhs.name && lhs.photo == rhs.photo
         }
 }
+
+
 

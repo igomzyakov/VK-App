@@ -29,7 +29,7 @@ class GroupsViewController: UITableViewController {
             return cell
 
     }
-    
+    //метод добавления групп из общего списка
     @IBAction func didSelectGroups(segue: UIStoryboardSegue) {
         guard let allGroupsController = segue.source as? AllGroupsViewController else { return }
         guard let selected = allGroupsController.tableView.indexPathForSelectedRow else { return }
@@ -39,11 +39,21 @@ class GroupsViewController: UITableViewController {
             tableView.reloadData()
         }
 }
+    
+    //метод удаления групп
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             newGroups.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .automatic)
         }
     }
+    
+    //метод чтобы мои группы исчезали из списка всех групп
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let AllGroupsController = segue.destination as? AllGroupsViewController else { return }
+        let filteredGroups = AllGroupsController.newGroups.filter { groups -> Bool in
+            !self.newGroups.contains(groups)
+            }
+        AllGroupsController.newGroups = filteredGroups
+    }
 }
-
