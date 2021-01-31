@@ -230,17 +230,15 @@
                                                 <constraint firstAttribute="width" constant="260" id="dXp-hk-twU"/>
                                             </constraints>
                                         </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzM-yG-zLw">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FzM-yG-zLw">
                                             <rect key="frame" x="25" y="284" width="22" height="22"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <state key="normal" title="Button" image="heart" catalog="system">
+                                            <state key="normal" image="heart" catalog="system">
                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="semibold"/>
                                             </state>
                                             <connections>
                                                 <action selector="like:" destination="5b5-GE-tCw" eventType="touchUpInside" id="le5-Rz-wTR"/>
-                                                <action selector="puls:" destination="5b5-GE-tCw" eventType="touchUpInside" id="rMc-jT-sxG"/>
-                                                <action selector="pulseButton:" destination="5b5-GE-tCw" eventType="touchUpInside" id="PHZ-zl-HgI"/>
+                                                <action selector="pulseButton:" destination="5b5-GE-tCw" eventType="touchUpInside" id="tWW-0S-fQl"/>
                                             </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gO-7V-xVq">

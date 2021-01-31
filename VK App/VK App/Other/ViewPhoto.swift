@@ -15,7 +15,7 @@ class ViewPhoto: UIImageView {
         
         layer.cornerRadius = bounds.height / 2
         layer.borderWidth = 3
-        layer.borderColor = UIColor.darkGray.cgColor
+        layer.borderColor = UIColor.cyan.cgColor
         clipsToBounds = true
         }
     }
